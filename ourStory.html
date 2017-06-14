@@ -19,8 +19,10 @@
 		    <link rel="stylesheet" href="css/leaflet.ie.css" />
 		<![endif]-->
 		<link rel="stylesheet" href="css/main.css">
+
 		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
         <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+		
     </head>
 	<style>
 	.imgbackground {
@@ -64,28 +66,44 @@ browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activa
         <![endif]-->
         
 
-        <!-- Navigation & Logo-->	
+        <!-- Navigation & Logo-->
         <div class="mainmenu-wrapper">
 	        <div class="container-fluid" >
-				<nav class="navbar mainmenu" id="mainmenu">
-				  <div class="container-fluid">
-					
-					<ul class="nav navbar-nav">
-						<li class="logo-wrapper"><a href="index.html"><img src="img/HomeSpicesLogo.jpg"></a></li>	
-						<li class="active"><a href="index.html">Home</a></li>
-						<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">About Us<span class="caret"></span></a>
-							<ul class="dropdown-menu">
-								<li><a href="historySpices.html">History of Indian Spices</a></li>
-							</ul>
-						</li>
-						<li><a class="nav-link" href="vissionMission.html">Vission Statement</a></li>
-						<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Products<span class="caret"></span></a>
-							<ul class="dropdown-menu">
-								<li><a class="dropdown-item" href="spices.html">Spices</a></li>
-								<li><a href="dryfruits.html">DryFruits</a></li>
-							</ul>
-						</li>
-						<li><a class="nav-link" href="contactUs.html">Contact Us</a></li>
+		        <nav class="navbar navbar-toggleable-md  mainmenu" id="mainmenu" >
+				  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				  </button>
+				  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+					<ul class="navbar-nav">
+					  <li class="logo-wrapper"><a href="index.html"><img src="img/HomeSpicesLogo.jpg" alt="Multipurpose Twitter Bootstrap 
+Template"></a></li>	
+					  <li class="nav-item active">
+						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+					  </li>
+					  <li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						  About Us
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink1">
+						  <a class="dropdown-item" href="historySpices.html">History of Indian Spices</a>
+						  
+						</div>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link" href="vissionMission.html">Vission Statement</a>
+					  </li>	
+					  <li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="products.html" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						  Our Products
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
+						  <a class="dropdown-item" href="spices.html">Spices</a>
+						  <a href="dryfruits.html">DryFruits</a>
+						</div>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link" href="contactUs.html">Contact Us</a>
+					  </li>
 					</ul>
 				  </div>
 				</nav>
@@ -129,11 +147,11 @@ browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activa
        
 		<!-- Pricing Table -->
 	    <div class="section">
-	    	<div class="container" style="background-color:white">
+	    	<div class="container">
 	    		<h2>About Us</h2>
 					<div class="row">
 						<!-- Pricing Plans Wrapper -->
-						<div class="col-sm-10 col-lg-10">
+						<div class="col-sm-12 col-lg-12">
 							<p>Home Spices is India’s one of the growing selling spice brand offering more than 200 products in masalas (pure and blends) and dry fruits. Accepted and appreciated by more than 200 hotels in Mumbai, Pune, Bhopal, Indore and Matheran. 
 Today, the Home Spices offers an enviable range of whole, pure and blended spices, sprinklers for Indian dishes and international cuisine. The Home spices are rich in aroma, freshness and adhere to the highest quality standards which involve the best processes of production, packaging and delivery to customers.
 Home Spices is for Best Taste, with Good Quality for Providing the SWADISHT JINDAGI to all over the India. 
@@ -142,9 +160,10 @@ Home Spices is for Best Taste, with Good Quality for Providing the SWADISHT JIND
 					</div>			
 			</div>
 		</div>
+		<br/>
 		<!-- Testimonials -->
-	    <div class="section" >
-			<div class="container" style="background-color:white">
+	    <div class="section">
+			<div class="container">
 				<h3>Reviews</h3>
 				<div class="row">
 					<!-- Testimonial -->
@@ -264,10 +283,9 @@ is Excellent!!!!"
 		    </div>
 	    </div>
 
-		<!-- Enable bootstrap 4 theme -->
         <!-- Javascripts -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/jquery-1.9.1.min.js"><\/script>')</script>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.js"></script>
         <script src="js/jquery.fitvids.js"></script>
