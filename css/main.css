@@ -5,6 +5,8 @@ body {
   background: url(../img/page-background.png);
 }
 
+.open .dropdown-menu{display:block;}
+
 .card{
 	background-color:#E9D460;
 }
@@ -2201,11 +2203,15 @@ span.color-red {
   padding-left: 0;
   padding-top: 0;
   padding-bottom: 0;
+  
 }
 .mainmenu-wrapper {
   background-color: #FFF;
   border-bottom: 4px solid #4f8db3;
   z-index: 4;
+  font-size:18px;
+  color:#000!important;
+  font-weight:bold;
 }
 .mainmenu {
   width: 100%;
@@ -2215,7 +2221,7 @@ span.color-red {
 }
 .mainmenu ul {
   margin: 0;
-  padding: 0;
+  padding: 0;	
   list-style-type: none;
 }
 .mainmenu > ul,
